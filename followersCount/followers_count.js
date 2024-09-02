@@ -19,6 +19,7 @@ document.getElementById('countDisplay').innerHTML=count; // Display the count in
 }
 
 function resetCount(){
-    document.getElementById('countDisplay').innerHTML = 0;
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = count;
     alert("Your Instagram post followers have been reset");
 }
