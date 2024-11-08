@@ -26,9 +26,9 @@ const Formulario = () => {
   const navigate = useNavigate();
 
   const handleSubmit = (values, { resetForm }) => {
-    addRegistro(values); // Añade el registro al estado global
-    resetForm(); // Limpia el formulario
-    navigate('/resultados'); // Redirige a la página de resultados
+    addRegistro(values); 
+    resetForm(); 
+    navigate('/resultados'); 
   };
 
   return (
